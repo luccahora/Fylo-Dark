@@ -5,7 +5,13 @@
   color: white;
   font-size: 17px;
   font-weight: 700;
+  cursor: pointer;
 }
+.botao:hover{
+    opacity: 0.8;
+    transition: 400ms;
+}
+
 
 @media (max-width: 800px) {
   .botao {
