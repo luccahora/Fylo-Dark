@@ -1,9 +1,14 @@
 .botao {
-    background: hsl(176, 38%, 48%);
-    padding: 9px 60px;
-    border-radius: 25px;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
+  background: hsl(176, 38%, 48%);
+  padding: 16px 100px;
+  border-radius: 25px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
 }
-    
+
+@media (max-width: 800px) {
+  .botao {
+    font-size: 18px;
+  }
+}
