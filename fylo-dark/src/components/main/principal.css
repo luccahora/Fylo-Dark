@@ -4,13 +4,21 @@
   align-items: center;
   max-width: 960px;
   margin: 0 auto;
+  /* background-image: url('../../assets/bg-curvy-desktop.svg') ; */
+}
+
+.bgdesktop {
+  display: block;
+  background-image: url("../../assets/bg-curvy-desktop.svg");
 }
 
 .ilustracao-intro {
   height: 400px;
 }
 
-.principal-texto h2, .principal-texto-mobile h2{
+
+.principal-texto h2,
+.principal-texto-mobile h2 {
   color: white;
   font-size: 27px;
   font-weight: 700;
@@ -19,7 +27,8 @@
   line-height: 1.2;
 }
 
-.principal-texto p, .principal-texto-mobile p {
+.principal-texto p,
+.principal-texto-mobile p {
   color: white;
   font-size: 15px;
   text-align: center;
@@ -35,7 +44,7 @@
   display: none;
 }
 
-.botao-comecar{
+.botao-comecar {
   padding-top: 15px;
 }
 
@@ -56,11 +65,10 @@
   .principal-texto-mobile {
     display: inline !important;
     padding-top: 23px;
-  } 
+  }
 
   .principal-texto-mobile p {
     font-size: 18px;
     padding-top: 18px;
   }
-  
 }

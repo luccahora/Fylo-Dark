@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./principal.css";
+import BotaoPrincipal from "../Botao/BotaoPrincipal";
 import ilustracaointro from "../../assets/illustration-intro.png";
-import BotaoPrincipal from "../botao/BotaoPrincipal";
 
 const principal = () => {
   return (

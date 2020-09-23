@@ -3,7 +3,7 @@ import logo from '../../assets/logo.svg'
 import '../../assets/main.css'
 import './cabecalho.css'
 
-const cabecalho = () => {
+const Cabecalho = () => {
     return (
       <header className="cabecalho">
         <img src={logo} alt="Cachorro" />
@@ -16,4 +16,4 @@ const cabecalho = () => {
     );
   };
   
-  export default cabecalho;
+  export default Cabecalho;
