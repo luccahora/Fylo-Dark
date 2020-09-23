@@ -1,0 +1,17 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.cabecalho img{
+    height: 40px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 88%);
+    margin-right: 30px;
+}
