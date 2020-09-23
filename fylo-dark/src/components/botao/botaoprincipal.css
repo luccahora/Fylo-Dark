@@ -1,9 +1,9 @@
 .botao {
     background: hsl(176, 38%, 48%);
-    padding: 12px 60px;
+    padding: 9px 60px;
     border-radius: 25px;
     color: white;
-    font-size: 15px;
-    margin-top: 300px;
+    font-size: 14px;
+    font-weight: 700;
 }
     
