@@ -6,7 +6,7 @@ import Principal from "./components/main/Principal";
 import SectionInfo from "./components/SectionInfo/SectionInfo";
 import SectionProdutividade from "./components/SectionProdutividade/SectionProdutividade";
 import SectionComentarios from "./components/SectionComentarios/SectionComentarios";
-
+import Formulario from "./components/Formulario/Formulario"
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <SectionInfo />
       <SectionProdutividade/>
       <SectionComentarios/>
+      <Formulario/>
     </div>
   );
 }
