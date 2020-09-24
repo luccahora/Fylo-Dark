@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import "./assets/main.css";
 import Cabecalho from "./components/Header/Cabecalho";
 import Principal from "./components/main/Principal";
