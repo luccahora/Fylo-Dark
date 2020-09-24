@@ -5,6 +5,9 @@ import Cabecalho from "./components/Header/Cabecalho";
 import Principal from "./components/main/Principal";
 import SectionInfo from "./components/SectionInfo/SectionInfo";
 import SectionProdutividade from "./components/SectionProdutividade/SectionProdutividade";
+import SectionComentarios from "./components/SectionComentarios/SectionComentarios";
+
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <Principal />
       <SectionInfo />
       <SectionProdutividade/>
+      <SectionComentarios/>
     </div>
   );
 }

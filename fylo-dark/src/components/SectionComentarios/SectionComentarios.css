@@ -1,0 +1,51 @@
+.section-comentario{
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 75px;
+}
+
+.card-comentario{
+    height: 150px;
+    width: 300px;
+    background-color: hsl(218, 28%, 13%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.texto-comentario{
+    font-size: 13px;
+    color: whitesmoke;
+    line-height: 1.5;
+}
+
+.autor-comentario{
+    display: flex;
+    margin-top: 20px;
+}
+
+.autor-comentario img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.nome-autor{
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+    
+    .section-comentario{
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+   
+}
+
+
