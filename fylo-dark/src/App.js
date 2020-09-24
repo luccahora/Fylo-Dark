@@ -4,6 +4,7 @@ import "./assets/main.css";
 import Cabecalho from "./components/Header/Cabecalho";
 import Principal from "./components/main/Principal";
 import SectionInfo from "./components/SectionInfo/SectionInfo";
+import SectionProdutividade from "./components/SectionProdutividade/SectionProdutividade";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Cabecalho />
       <Principal />
       <SectionInfo />
+      <SectionProdutividade/>
     </div>
   );
 }
