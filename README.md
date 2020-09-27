@@ -8,7 +8,18 @@
 :computer: Tecnologias
 ------------
 
-- ReactJS
+- React
+
+
+## Instalar 
+
+
+### `npm install`
+
+## Executar 
+
+
+### `npm start`
 
 <p align="center">
 <h4 align="center"> <i>Layout by <strong>FrontendMentor</strong></i> </h4>
