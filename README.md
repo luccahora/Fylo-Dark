@@ -9,7 +9,7 @@
 ------------
 
 - React
-
+- TypeScript
 
 ## Instalar 
 
